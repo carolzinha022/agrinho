@@ -1,0 +1,77 @@
+/* -- 481px — 768px: iPads, tablets -- */
+@media (min-width: 481px) and (max-width: 768px) {
+	.container {
+		flex-flow: column  nowrap;
+	}
+	/* Cabeçalho */
+	.logo__principal {
+		width: 80%;
+	}
+	.texto__cabecalho {
+		margin-top: 100px;
+		margin-bottom: 150px;
+		font-size: 30px;
+	}
+
+	/* estilo seção 1*/
+	.secao1__descricao {
+		text-align: center;
+		font-size: 25px;
+		width: 90%;
+	}
+	.secao1__imagem {
+		padding: 1em;
+		width: 95%;
+		height: auto;
+	}
+	 
+	/* estilo seção 2*/
+	.secao2__imagens  img {
+		width: 95%;
+	}
+	.secao2__img__titulo {
+		text-align: center;
+	}
+	.secao2__subtitulo  h2 {
+		font-size: 25px;
+	}
+
+	/* estilo seção 3*/
+	.secao3__texto  h1 {
+		width: 95%;
+		padding: 1em;
+		margin-bottom: 30%;
+	}
+	.secao3__texto  p {
+		text-align: center;
+	}
+	.secao3__texto  h2 {
+		margin: 50%  0  50%  0;
+	}
+
+	/* estilo seção 4*/
+	.secao4__container {
+		font-size: 28px;
+		text-align: center;
+	}
+	.secao4__titulo {
+		font-size: 60px;
+	}
+	.secao4__texto,
+	.secao4__email,
+	.secao4__fone,
+	.secao4__endereco {
+		font-size: 30px;
+	}
+	.secao4__imagem {
+		display: flex;
+		justify-content: space-around;
+		margin-bottom: 50px;
+	}
+	
+	/* estilo seção rodapé*/
+	.rodape__lista  li {
+		font-size: 25px;
+		margin-bottom: 10px;
+	}
+}
