@@ -52,7 +52,8 @@ a:active {
 
 /*estilos do cabeçalho*/
 .cabecalho {
-  background-image: url("bandeira.png");
+  background-image: url("bandeira.png"); 
+   background-repeat: no-repeat;
 }
 .img {
   width: 100%;
